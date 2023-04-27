@@ -1,5 +1,10 @@
-import {Profile} from 'components/Profile/Profile';
-import user from 'user.json'
+import {Profile} from './Profile/Profile';
+// import { Statistics } from './Statistics/Statistics';
+import Section from './Statistics/Sectoin';
+import StatisticsList from './Statistics/StatisticsList';
+import user from 'user.json';
+import data from 'data.json';
+
 
 export const App = () => {
   return (
@@ -20,6 +25,11 @@ export const App = () => {
         avatar={user.avatar}
         stats={user.stats}
       />
+
+      <Section 
+        title="Upload stats">
+        <StatisticsList items={data} />
+      </Section>
     </div>
   );
 };
