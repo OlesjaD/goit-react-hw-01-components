@@ -3,10 +3,11 @@
     padding: 20px;
     border-radius: 2px;
     outline: solid 2px rgba(121, 121, 121, 0.697);
+    margin: 20px;
 }
 
 .avatar {
-max-width: 260px}
+    max-width: 260px}
 
 .name {
     font-weight: 500;
