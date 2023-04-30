@@ -1,5 +1,4 @@
 import {Profile} from './Profile/Profile';
-// import { Statistics } from './Statistics/Statistics';
 import Section from './Statistics/Sectoin';
 import StatisticsList from './Statistics/StatisticsList';
 import user from 'user.json';
@@ -30,6 +29,8 @@ export const App = () => {
         title="Upload stats">
         <StatisticsList items={data} />
       </Section>
+
+      
     </div>
   );
 };

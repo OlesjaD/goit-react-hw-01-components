@@ -1,13 +1,13 @@
 .profile {
     text-align: center;
-    padding: 20px;
-    border-radius: 2px;
-    outline: solid 2px rgba(121, 121, 121, 0.697);
-    margin: 20px;
+    margin: 20px auto;
 }
 
 .avatar {
-    max-width: 260px}
+    max-width: 260px;
+    background-color: rgb(176, 204, 232);
+    border-radius: 50%;
+}
 
 .name {
     font-weight: 500;
@@ -29,7 +29,16 @@
 .stats {
     display: flex;
     list-style: none;
-    font-size: 25px;
+    font-size: 20px;
+    padding: 0;
+}
+.item {
+    display: flex;
+    flex-direction: column;
+    background-color:  rgb(231, 230, 230);
+    outline: solid 2px rgba(121, 121, 121, 0.697);
+    border-radius: 2px;
+    padding: 20px;
 }
 
 .label {
@@ -39,5 +48,5 @@
 
 .quantity {
     font-weight: 500;
-    /* background-color: rgb(230, 106, 106); */
+    font-size: 30px;
 }
