@@ -1,8 +1,11 @@
 import {Profile} from './Profile/Profile';
 import Section from './Statistics/Sectoin';
 import StatisticsList from './Statistics/StatisticsList';
+import FriendList from './FriendList/FriendList';
+// import { FriendListItem } from './FriendList/FriendListItem';
 import user from 'user.json';
 import data from 'data.json';
+import friends from 'friends.json';
 
 
 export const App = () => {
@@ -30,7 +33,9 @@ export const App = () => {
         <StatisticsList items={data} />
       </Section>
 
-      
+      <FriendList
+        friends={friends}>
+      </FriendList>     
     </div>
   );
 };
