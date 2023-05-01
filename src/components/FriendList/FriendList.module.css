@@ -4,6 +4,7 @@
     flex-direction: column;
     list-style: none;
     gap: 15px;
+    padding: 20px auto;
 }
 
 .item {

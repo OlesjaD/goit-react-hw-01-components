@@ -22,9 +22,10 @@
     flex-direction: column;
     outline: solid 2px rgba(121, 121, 121, 0.697);
     align-items: center;
-    padding: 15px;
+    padding: 5px;
     border-radius: 2px;
     background-color: rgb(176, 204, 232);
+    min-width: 96px;
 }
 
 .label {

@@ -38,7 +38,8 @@
     background-color:  rgb(231, 230, 230);
     outline: solid 2px rgba(121, 121, 121, 0.697);
     border-radius: 2px;
-    padding: 20px;
+    padding: 10px;
+    min-width: 110px;
 }
 
 .label {
