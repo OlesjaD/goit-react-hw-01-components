@@ -7,12 +7,11 @@ function StatisticsList ({items}) {
     return (
     <ul className={css.statList}>
         {items.map (item => (
-            <li key={item.id}>
                 <Statistics
+                    key={item.id}
                     label={item.label}
                     percentage={item.percentage}
                 />
-            </li>
         ))}            
     </ul>)
 }
